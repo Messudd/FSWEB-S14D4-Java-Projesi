@@ -19,5 +19,6 @@ public abstract class Monster {
     public double getDamage() {
         return damage;
     }
+    public abstract double attack();
 
 }
